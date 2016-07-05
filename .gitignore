@@ -1,0 +1,10 @@
+from socket import gethostbyname
+
+def Miscript():
+	print'\a=[Welcome to Ip Scanner by: ZANYAR MANDO ]='
+	target = raw_input('./Enter the Host: ')
+	targetIP = gethostbyname(target)
+	print '\a-Target IP ===>', targetIP
+	print '+------------------------------------+'
+	Miscript()
+Miscript()
